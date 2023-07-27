@@ -237,7 +237,7 @@ int main(void) {
         if (againResponse == 'Y' || againResponse == 'y') {
             main();
         } else if (againResponse == 'N' || againResponse == 'n') {
-            break;
+            exit(0);
         } else {
             continue;
         }
